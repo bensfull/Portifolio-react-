@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export type Props ={
   children: string
-  fontSize?: number
+  fontSize?:number
 }
 
 export const Titulo= styled.h3<Props>`
